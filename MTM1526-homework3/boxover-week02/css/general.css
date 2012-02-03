@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: #f00;
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	
+	-moz-transition: all 200ms linear;
+	-webkit-transition: all 200ms linear;
+	-ms-transition: all 200ms linear;
+	-o-transition: all 200ms linear;
+	transition: all 200ms linear;
+}
+
+button {
+	position:relative;
+	z-index: 5555;
+}
+
+.active {
+	border: 3px solid #999;
+}
+
